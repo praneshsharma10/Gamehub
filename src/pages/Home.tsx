@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react'
 const games = [
   { id: 1, name: 'Tic Tac Toe', path: '/game1', color: 'bg-purple-600' },
   { id: 2, name: 'Space Shooter', path: '/game2', color: 'bg-blue-600' },
-  { id: 3, name: 'Word ', path: '/game3', color: 'bg-green-600' },
+  { id: 3, name: 'Furious Fowls', path: '/game3', color: 'bg-green-600' },
   { id: 4, name: 'Racing', path: '/game4', color: 'bg-red-600' },
 ]
 
@@ -118,6 +118,22 @@ function Home() {
               <a href="https://timesofindia.indiatimes.com/blogs/voices/online-gaming-a-perfect-blend-of-entertainment-and-education/" className="block mt-1 text-lg leading-tight font-medium text-white hover:underline">A perfect blend of entertainment and education</a>
               <p className="mt-2 text-gray-400">
               Online gaming has always been perceived as the ultimate form of entertainment but with the evolution of the tech industry, it is also gaining recognition as a tool of learning.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container mx-auto px-4 py-4 ">
+        <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+          <div className="md:flex">
+            <div className="md:flex-shrink-0">
+              <img className="h-48 w-full object-cover md:w-48" src="https://images.theconversation.com/files/614148/original/file-20240819-17-s01mu0.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=754&h=503&fit=crop&dpr=1" alt="Featured game" />
+            </div>
+            <div className="p-8">
+              <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Featured Article</div>
+              <a href="https://theconversation.com/study-shows-video-games-can-improve-mental-wellbeing-but-you-can-have-too-much-of-a-good-thing-236861" className="block mt-1 text-lg leading-tight font-medium text-white hover:underline">Study shows video games can improve mental wellbeing but you can have too much of a good thing</a>
+              <p className="mt-2 text-gray-400">A study of almost 100,000 people in Japan aged 10 to 69 found playing video games or even owning a console can be good for mental health. But playing too much each day can harm wellbeing.
               </p>
             </div>
           </div>
