@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react'
 const games = [
   { id: 1, name: 'Tic Tac Toe', path: '/game1', color: 'bg-purple-600' },
   { id: 2, name: 'Space Shooter', path: '/game2', color: 'bg-blue-600' },
-  { id: 3, name: 'Furious Fowls', path: '/game3', color: 'bg-green-600' },
+  { id: 3, name: 'maze-game', path: '/game3', color: 'bg-green-600' },
   { id: 4, name: 'Racing', path: '/game4', color: 'bg-red-600' },
 ]
 
@@ -144,4 +144,8 @@ function Home() {
 }
 
 export default Home
+
+
+
+
 
