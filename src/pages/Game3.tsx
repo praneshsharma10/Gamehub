@@ -1,11 +1,11 @@
 // creating a maze game
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 // type Direction = 'up' | 'down' | 'left' | 'right';
 
 //creating a maze
 
-const maze = [];
+// const maze = [];
 
 
 
